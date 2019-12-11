@@ -20,14 +20,12 @@ int main()
             printf("输入元素 a%d%d: ",i+1, j+1);
             scanf("%d", &b[i][j]);
         }
-    // 相乘 
     for(i=0;i<r;++i)
         for(j=0;j<c;++j)
         {
-            sum[i][j]=a[i][j]*b[i][j];
+            sum[i][j]=a[i][j]+b[i][j];
         }
-    // 显示结果
-    printf("\n二维数组相乘结果: \n\n");
+    printf("\n二维数组相加结果: \n\n");
     for(i=0;i<r;++i)
         for(j=0;j<c;++j)
         {
