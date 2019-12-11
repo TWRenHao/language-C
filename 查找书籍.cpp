@@ -1,4 +1,4 @@
-/*给定n本书的名称和定价，本题要求编写程序，查找并输出其中定价最高和最低的书的名称和定价*/
+/*给定n本书的名称和定价，该程序可以查找并输出其中定价最高和最低的书的名称和定价*/
 #include<stdio.h>
 struct type
 {
@@ -13,7 +13,7 @@ int main()
 	for(i=1;i<=n;i++)
 	{
 		scanf("\n");
-	  gets(s1.name);
+	    gets(s1.name);
 		scanf("%lf",&s1.cash);
 		if(i==1)
 		max=min=s1;
